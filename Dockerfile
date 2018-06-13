@@ -32,6 +32,8 @@ RUN apt-get update \
     pkg-config \
     gcc \
     libtool \
+    nano \
+    sudo \
     automake
 
 RUN  locale-gen en_US.UTF-8
